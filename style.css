@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    background-color: #494;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>homepage.html</title>
+        <style>
+            body{
+               margin: 0;
+               height: 100dvh;
+               background-image: url("vintage.jpg");
+               background-size: cover;
+               background-repeat: no-repeat;
+               background-position: center;
+               overflow: auto;
+               animation: zoom 9s infinite alternate; 
+
+            }
+            @keyframes zoom{
+                0%{
+                  background-size: 100%;
+                  background-position:center ;  
+                }
+                50%{
+                    background-size: 115%;
+                    background-position: top;
+                }
+                100%{
+                    background-size: 125%;
+                    background-position: left;
+                }
+            } 
+            h1{
+                font-style: oblique;
+                color: aliceblue;
+                font: fallback;
+                text-transform: uppercase;
+                font-size: 50px;
+                animation: glow 5s infinite alternate ;
+
+            }
+            @keyframes glow{
+                from{
+                  text-shadow: 0 0 10px aquamarine;  
+                }
+                to{
+                  text-shadow: 0 0 40px aquamarine;  
+                }
+            }
+            h2,h3,h4{
+                color: aliceblue;
+            }
+            p{
+                color: antiquewhite;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>FAVOURITES HABBITS</h1>
+        <p color="whitesmoke">some of my favoutite hobbies are playing video games,reading novel and listening to music</p>
+        <h2 color="whitesmoke">PLAYING VIDEO GAMES</h2>
+        <p color="whitesmoke">this games help me reduce stress and keep me buy</p>
+        <h3 color="whitesmoke">READING NOVELS</h3>
+        <p color="whitesmoke">they mostly help in expanding my interlect and help me know more about the daily world</p>
+        <h4 color="whitesmoke">LISTENING TO MUSIC</h4>
+        <P color="whitesmoke">helps stay relaxed and relieved during some situations </P>
+        <img src="record.jpg" width="500">
+    </body>
+</html>

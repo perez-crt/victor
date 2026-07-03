@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <title>victors projects</title>
+    <link rel="stylesheet" href="style.css">
+    <audio controls autoplay loop>
+      <source src="no chills.m4a">
+    </audio>
+    <style>
+  body{
+    margin: 0;
+    height: 100vh;
+    background-image: url("manchester.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: zoom 4s infinite alternate;
+  }  
+  @keyframes zoom{
+   0%{
+    background-size: 100%;
+    background-position: center;
+   }
+   50%{
+    background-size: 115%;
+    background-position: top;
+   }
+   100%{
+    background-size: 125%;
+    background-position: bottom;
+   }
+  }
+  body::before{
+    content: "CHAMPIONS";
+    position: absolute;
+    inset: 0;
+  }
+  h1{color: white;
+     text-align: center;
+     font-style: oblique;
+     font: fallback;
+     text-transform: uppercase;
+     font-size: 80px;
+     letter-spacing: 6px;
+     animation: glow 2s infinite alternate;
+  }
+  @keyframes glow{
+    from{
+      text-shadow: 0 0 10px cyan;
+    }
+    to{
+      text-shadow: 0 0 40px cyan;
+    }
+  }
+  p{
+    color: white;
+    font-size: 20px;
+  }
+  li{
+    color:whitesmoke;
+  }
+  img{
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    display: block;
+    margin: auto;
+    animation: float 4s infinite ease-in-out;
+    width: 350px;
+  }
+  @keyframes float{
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
+  audio{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;s
+  }
+  </style> 
+</head>
+<body>
+    <h1> victor_s PROJECTS</h1>
+     <p>creative developers & Designs</p>
+     <p><u>skills</u>
+      <ul>
+        <li>Web development</li>
+        <li>programming</li>
+        <li>html</li>
+      </ul>  
+<img src="C:\Users\Admin\OneDrive\Desktop\lucy\bruno.webp" alt="bruno" width="500">
+<img src="vintage.jpg" alt="vintage"width="500">
+<img src="record.jpg" alt="record"width="500">
+      </p>
+</body>
+</html>
